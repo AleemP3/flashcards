@@ -24,12 +24,16 @@
           <br /><button type="button" id="cardFourButton">Answer</button><br />
           <p id="fourthCard"></p> 
       </div> -->
+      <div>
+          <form action="javascript:void(0);" method="POST" onsubmit="addNewCard()"> 
+              <input type="text" id="add-question" placeholder="New question">
+              <br />
+              <input type="text" id="add-answer" placeholder="Answer">
+              <br />
+              <input type="submit" value="Add">
+          </form>
+      </div>
     </div>
-    <form action="javascript:void(0);" method="POST" onsubmit="addNewCard()"> 
-        <input type="text" id="add-question" placeholder="New question">
-        <input type="text" id="add-answer" placeholder="Answer">
-        <input type="submit" value="Add">
-    </form>
     <script src="script.js"></script> 
     </body>
 </html>
